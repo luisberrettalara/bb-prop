@@ -1,0 +1,152 @@
+<?php
+
+use Illuminate\Database\Seeder;
+use Inmuebles\Models\Comun\Barrio;
+
+class BarriosSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        // Barrio::create(['nombre'=>'Centro','localidad_id'=>'1']);
+        // Barrio::create(['nombre'=>'Periferia','localidad_id'=>'1']);
+        // Barrio::create(['nombre'=>'Palermo','localidad_id'=>'2']);
+        // Barrio::create(['nombre'=>'Centro','localidad_id'=>'2']);
+        // Barrio::create(['nombre'=>'Nueva Cordoba','localidad_id'=>'3']);
+        // Barrio::create(['nombre'=>'Alta Cordoba','localidad_id'=>'3']);
+        // Barrio::create(['nombre'=>'Primero de Mayo','localidad_id'=>'4']);
+        Barrio::create(['nombre' => 'Bosque Alto Barrio Parque','localidad_id'=>'1']);
+        Barrio::create(['nombre' => 'Barrio Parque Norte', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Las Lomitas', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Belgrano', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Nueva Belgrano', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Eduardo Cenci', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Cooperacion II', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Mi Casita', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Duprat', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Los Teritos', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Avellaneda', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Los Almendros', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa del Parque', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Floresta', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Santa Margarita', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'San Cayetano', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'San Roque', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Palihue', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Altos de Palihue', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Palos Verdes', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'La Falda', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Napostá', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Universitario', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Solares Norte', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Los Muñecos', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Aldea Romana', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Patagonia', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Miramar', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Bella Vista', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Tiro Federal', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Los Horneros', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Patagonia Norte', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Las Acacias', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Milla Mapu', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Prensa', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Harding Green', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => '17 de Agosto', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'San Ignacio', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'El Nacional', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Independencia Altos', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => '9 de Noviembre', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Barrio Anchorena', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Sanchez Elia', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Amaducci', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Don Bosco', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Libre', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Libre Sur', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Loreto', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Soldati', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Mitre', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Barrio Obrero', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Nueva', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Italia', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Rosendo Lopez', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Bahia Blanca', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Cerrito', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Buenos Aires', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'San Francisco', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Oasis', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => '12 de Octubre', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Barrio Parque San Miguel', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Gloria', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Elena', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Grunbein', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Palermo', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'San Vicente', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => '17 de Mayo', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Portal del Este', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Aeropuerto', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Punta Blanca', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Comandante Espora', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Coronel Estomba', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Latino', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Sesquicentenario', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'S.O.S.B.A', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Irupé', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Los Álamos', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Ricchieri', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Mara', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Aerotalleres', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Caritas', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Bordeu y Don Ramiro', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Los Chañares', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Ceferino Namuncurá', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Luján', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'U.O.M', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Coronel Maldonado', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Vista Alegre', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => '1º de Mayo', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Nocito', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Pampa Central', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Mariano Moreno', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Kilometro 5', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Pacífico', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'La Piedad', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'San Blas', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Caracol', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Colón', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Centro', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Pedro Pico', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Cecilia Larrañaga', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Juan Lopez', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'U.P.C.N', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Centenario', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Rosas', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'San Martín', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Ressia', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Gral. Arias', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Rucci', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Parodi', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Delfina', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Loma Paraguaya', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Enrique Julio', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => '26 de Septiembre', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Obrero', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Rivadavia', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => '1810', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'El Progreso y El Porvenir', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Thompson', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Rosario Sur', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => '5 de Abril', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'El Sol', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Moresino', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Spurr', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Serra', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Boulevard Juan B. Justo', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Villa Muñiz', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'Stella Maris', 'localidad_id' => '1']);
+        Barrio::create(['nombre' => 'San Jorge', 'localidad_id' => '1']);
+    } 
+}
